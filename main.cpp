@@ -19,6 +19,7 @@
 
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 #include <QtWebEngine/qtwebengineglobal.h>
 #include <QtWebEngine/qquickwebengineprofile.h>
 #include <QtWebEngineCore/qwebengineurlrequestinterceptor.h>
@@ -71,12 +72,16 @@ int main(int argc, char *argv[])
     QtWebEngine::initialize();
     QGuiApplication app(argc, argv);
 
+    QQmlApplicationEngine engine;
+
 #ifdef USE_ADBLOCK
     RequestInterceptor interceptor;
-    QQuickWebEngineProfile::defaultProfile()->setUrlRequestInterceptor(&interceptor);
+    QQuickWebEngineProfile adblockProfile;
+    adblockProfile.setUrlRequestInterceptor(&interceptor);
+    engine.rootContext()->setContextProperty("adblockProfile", &adblockProfile);
 #endif
 
-    QQmlApplicationEngine engine("./main.qml");
+    engine.load("./main.qml");
     return app.exec();
 }
 
