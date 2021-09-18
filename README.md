@@ -1,8 +1,8 @@
-# A Minimal QtWebEngine WebBrowser with Adblock
+# A Minimal QtWebEngine Web Browser with Adblock
 
 ![](screenshots/adblock.jpg)
 
-## How Does it Work 
+## How Does It Work 
 
 This is a minimal `network filter` implementation using `QWebEngineUrlRequestInterceptor` and `QtWebEngine`, with filters from [easylist](https://easylist.to/easylist/easylist.txt). The parser is currently using `ad-block` from Brave, but alternatives would be needed in the future. 
 
