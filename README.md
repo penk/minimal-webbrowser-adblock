@@ -1,8 +1,6 @@
-# A Minimal Web Browser with Adblock
+# A Minimal QtWebEngine WebBrowser with Adblock
 
-| Before Adblock | After Adblock |
-|---|---|
-| ![](screenshots/before-adblock.png) | ![](screenshots/after-adblock.png) |
+![](screenshots/adblock.jpg)
 
 ## How Does it Work 
 
