@@ -1,8 +1,8 @@
-# A Minimial WebBrowser with Adblock
+# A Minimial Web Browser with Adblock
 
-| Before Adblock | After Adblock | 
-|----------------+---------------|
-| ![](screenshots/before-adblock.png) | ![](screenshots/after-adblock.png)  |
+| Before Adblock | After Adblock |
+|---|---|
+| ![](screenshots/before-adblock.png) | ![](screenshots/after-adblock.png) |
 
 ## How Does it Work 
 
@@ -11,7 +11,7 @@ This is a minimal `network filter` implementation using `QWebEngineUrlRequestInt
 ### Dependencies
 
 - Qt 5.10+ with `QtWebEngine` module 
-- ABP-style parser from [Brave](https://github.com/brave/ad-block)'s C++ library 
+- ABP-style parser from Brave's [ad-block](https://github.com/brave/ad-block) C++ library 
 
     Checkout the following 3 repositories: 
 
