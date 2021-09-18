@@ -1,4 +1,4 @@
-# A Minimial Web Browser with Adblock
+# A Minimal Web Browser with Adblock
 
 | Before Adblock | After Adblock |
 |---|---|
