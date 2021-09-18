@@ -1,4 +1,4 @@
-# A Minimal QtWebEngine Web Browser with Built-in Adblocker
+# A Minimal QtWebEngine Web Browser with Adblocker
 
 ![](screenshots/adblock.jpg)
 
