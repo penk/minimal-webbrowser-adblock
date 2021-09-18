@@ -6,6 +6,10 @@
 
 This is a minimal `network filter` implementation using `QWebEngineUrlRequestInterceptor` and `QtWebEngine`, with filters from [easylist](https://easylist.to/easylist/easylist.txt). The parser is currently using `ad-block` from Brave, but alternatives would be needed in the future. 
 
+Reference:
+- https://adblockplus.org/blog/investigating-filter-matching-algorithms
+- https://brave.com/improved-ad-blocker-performance/
+
 ### Dependencies
 
 - Qt 5.10+ with `QtWebEngine` module 
