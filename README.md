@@ -21,7 +21,13 @@ Reference:
 
 - ABP-style parser from Brave's [ad-block](https://github.com/brave/ad-block) C++ library 
 
-    Checkout the following 3 repositories: 
+    Checkout this repo: 
+    
+        git clone https://github.com/penk/minimal-webbrowser-adblock
+        cd minimal-webbrowser-adblock
+        mkdir -p third_party
+
+    Then checkout the following 3 repositories: 
 
         git clone https://github.com/brave/ad-block.git third_party/ad-block 
         git clone https://github.com/brave/hashset-cpp.git third_party/hashset-cpp 
@@ -39,7 +45,7 @@ Reference:
 
 ## Copyright & License 
 
-Copyright © 2021 Penk Chen <penkia@gmail.com>
+Copyright © 2021 Penk Chen &lt;<penkia@gmail.com>&gt;
 
 - This project is licensed under GPL 3+, see the file LICENSE for details. 
 
