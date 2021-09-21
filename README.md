@@ -13,6 +13,12 @@ Reference:
 ### Dependencies
 
 - Qt 5.10+ with `QtWebEngine` module 
+
+    On Debian or Ubuntu, this can be done by: 
+
+        sudo apt install qtwebengine5-dev qml-module-qtwebengine \ 
+        qml-module-qtquick-window2 qml-module-qtquick2 qml-module-qtquick-controls2
+
 - ABP-style parser from Brave's [ad-block](https://github.com/brave/ad-block) C++ library 
 
     Checkout the following 3 repositories: 
