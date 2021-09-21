@@ -12,7 +12,7 @@ Window {
         id: webView
         anchors.fill: parent; anchors.topMargin: 60
         url: 'https://www.bbc.com'
-        profile: adBlockSwitch.checked ? adblockProfile : defaultProfile
+        profile: adBlockSwitch.checked && (typeof(adblockProfile) !== "undefined") ? adblockProfile : defaultProfile
     }
 
     WebEngineProfile { id: defaultProfile }
